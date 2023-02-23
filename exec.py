@@ -19,6 +19,6 @@ if __name__ == "__main__":
 
     app = wezel.app()
     #app.set_menu(wezel.menu.menubar.default) # builds default menubar from wezel package
-    #app.set_menu(menu.default) # builds default menubar from menu.py script (copied from wezel package)
-    app.set_menu(menu.custom) # builds custom (with HelloWorld) menubar from menu.py script
+    app.set_menu(menu.default) # builds default menubar from menu.py script (copied from wezel package)
+    #app.set_menu(menu.custom) # builds custom (with HelloWorld) menubar from menu.py script
     app.show()
